@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(243 244 246);
+}
+.app {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg {
+    width: 155px;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    color: rgb(75 85 99 );
+}
+
+.header {
+    font-weight: 600;
+}
+
+.card {
+    padding: 1rem 1.5rem;
+    box-shadow:  0 0 #0000,0 0 #0000 ,0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+    background-color: #fff;
+}
+
+.valid {
+    color:#90EE90
+}
+
+.invalid {
+    color: #ff474c;
+}
+
+
+@media screen and (max-width: 640px) {
+    .app {
+        justify-content: flex-start;
+    }
+}

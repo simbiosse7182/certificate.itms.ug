@@ -12,10 +12,13 @@ function App() {
     const start = searchParams.get('start')
     const end = searchParams.get('end')
     const getIsValid = () => {
-        if (!name || !start || !end){
+        if (!name || !start || !end) {
             return false
         }
-        const user =  verified_users.find(el=>el.name.toLowerCase() === name.toLowerCase())
+        const user = verified_users.find(el => el.name.toLowerCase() === name.toLowerCase())
+        if (!user) {
+            return false
+        }
         return user.date_start === start && user.date_end === end;
 
     }
@@ -32,11 +35,11 @@ function App() {
                 }
                 </div>
                 {getIsValid() &&
-                   <>
-                       <div className="text">Name: {name}</div>
-                       <div className="text">Date Start: {start}</div>
-                       <div className="text">Date end: {end}</div>
-                   </>
+                    <>
+                        <div className="text">Name: {name}</div>
+                        <div className="text">Date Start: {start}</div>
+                        <div className="text">Date end: {end}</div>
+                    </>
                 }
             </div>
         </div>

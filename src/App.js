@@ -29,13 +29,14 @@ function App() {
             </div>
             <div className='card'>
                 <div className="text header">
-                    Certificate of ITMS training completion is {getIsValid() ?
-                    <span className='valid'>valid</span> :
-                    <span className='invalid'>invalid</span>
-                }
+                    Uganda Police Force & ITMS: Training on Operating the SecurOS System
                 </div>
+                {!getIsValid() && <div  className='text'> The certificate is <span className="invalid">invalid</span></div>}
                 {getIsValid() &&
                     <>
+                        <div className='text' style={{marginBottom: 10}}>
+                            The certificate is granted upon <span className='valid'>successfully</span> finishing the training. It verifies the preparedness to operate within the SecurOS system.
+                        </div>
                         <div className="text">Name: {name}</div>
                         <div className="text">Date Start: {start}</div>
                         <div className="text">Date end: {end}</div>

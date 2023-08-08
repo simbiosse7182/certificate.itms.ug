@@ -1,6 +1,7 @@
 import React from "react";
 import {useSearchParams} from "react-router-dom";
 import {ReactComponent as Logo} from "./logo.svg";
+import {ReactComponent as Logo2} from "./logo_2.svg";
 import './app.css'
 
 import {verified_users} from "./constans";
@@ -25,6 +26,7 @@ function App() {
     return (
         <div className="app">
             <div className="logo-container">
+                <Logo2/>
                 <Logo/>
             </div>
             <div className='card'>

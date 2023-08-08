@@ -16,7 +16,11 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
 svg {
     width: 155px;
 }

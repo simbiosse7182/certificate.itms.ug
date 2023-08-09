@@ -359,6 +359,148 @@ export const verified_users = [
         "date_end": "02/08/2023",
         "valid": 1
     },
+    {
+        "name": "Sserwanja Nicholus",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+    },
+    {
+        "name": "Namuyanja Allen",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
 
+    },
+    {
+        "name": "Kwagala Paul",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Sawe Dan Tanui",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Sserwada Faizal",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Nayebare Maurisioi",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Mulondo Esau",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Ogunia Yonahi",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Mutalya Simon",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Omara Godfrey Ebwor",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Ajok Sarah",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Kali Godfrey",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Kasuja Peter",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Ayebare Charity",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Amuzira Jackson",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Kyarikunda Seth",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Friday Phiona",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Mbabazi Hilda",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Amuge Josephine",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    },
+    {
+        "name": "Nkwanga Yakuti",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
+    }
 ]
+
+
+
+
 export const DOMAIN_URL = 'http://localhost:3000/'

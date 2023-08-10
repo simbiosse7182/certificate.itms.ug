@@ -387,7 +387,7 @@ const verified_users = [
 
     },
     {
-        "name": "Sserwada Faizal",
+        "name": "Sserwadda Faizal",
         "date_start": "07/08/2023",
         "date_end": "09/08/2023",
         "valid": 1
@@ -408,7 +408,7 @@ const verified_users = [
 
     },
     {
-        "name": "Ogunia Yonahi",
+        "name": "Ogunia Yonah",
         "date_start": "07/08/2023",
         "date_end": "09/08/2023",
         "valid": 1
@@ -497,8 +497,17 @@ const verified_users = [
         "date_end": "09/08/2023",
         "valid": 1
 
+    },
+    {
+        "name": "Basalirwa Micheal",
+        "date_start": "07/08/2023",
+        "date_end": "09/08/2023",
+        "valid": 1
+
     }
+
 ]
+
 
 
 

@@ -1,4 +1,4 @@
-const verified_users = [
+export const verified_users = [
     {
         "name": "Kukundakwe Ben",
         "date_start": "17/07/2023",
